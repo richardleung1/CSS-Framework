@@ -11,9 +11,11 @@ body {
     flex-direction: column;
     margin: 0 auto;
 }
-img {
-	transition: transform .5s;
-}
-img:hover {
-    transform: scale(1.2);
+@media (min-width: 600px){
+    img {
+        transition: transform .5s;
+    }
+    img:hover {
+        transform: scale(1.2);
+    }
 }
