@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background: lightgrey;
+    width: 75vw;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+img {
+	transition: transform .5s;
+}
+img:hover {
+    transform: scale(1.2);
+}
